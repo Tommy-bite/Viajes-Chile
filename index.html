@@ -219,19 +219,19 @@
 
             <form class="px-4">
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label text-white">Nombre:</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="nombre" class="form-label text-white">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" aria-describedby="nombre" required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label text-white">Asunto:</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="asunto" class="form-label text-white">Asunto:</label>
+                    <input type="text" class="form-control" id="asunto" required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label text-white">Mensaje:</label>
-                    <textarea class="form-control" rows="10" aria-label="With textarea"></textarea>
+                    <label for="Mensaje" class="form-label text-white">Mensaje:</label>
+                    <textarea class="form-control" id="Mensaje" rows="10"  required></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-info text-white">Enviar</button>
+                <button type="submit" class="btn btn-info text-white" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Click aqui para enviar el formulario">Enviar</button>
             </form>
         </section>
     </main>
