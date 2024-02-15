@@ -1,0 +1,29 @@
+body {
+    font-family: "Cabin", sans-serif;
+    /* font-family: "Lobster", sans-serif; */
+}
+
+.navbar-brand,
+.navbar-nav a {
+    font-family: "Lobster", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-brand:hover,
+.nav-link:hover{
+    color: aqua;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: auto;
+    }
+    img {
+        max-width: 100%;
+    }
+}
